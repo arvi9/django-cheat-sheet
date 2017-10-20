@@ -17,6 +17,7 @@ python manage.py makemigrations <app>                           // generate migr
 python manage.py sqlmigrate <app> <migration-number>            // display sql which will be generated for migration
 python manage.py migrate                                        // apply non-executed migrations
 python manage.py shell                                          // run shell for application
+python manage.py test <app>                                     // run the tests for application
 ```
 
 -------------------
